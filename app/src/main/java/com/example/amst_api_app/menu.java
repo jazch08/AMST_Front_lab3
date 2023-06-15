@@ -27,4 +27,10 @@ public class menu extends AppCompatActivity {
         red_sensores.putExtra("token", token);
         startActivity(red_sensores);
     }
+
+    public void irGuardarValores(View view){
+        Intent ingreso_valores_sensores = new Intent(getBaseContext(), ingreso_valores_sensores.class);
+        ingreso_valores_sensores.putExtra("token", token);
+        startActivity(ingreso_valores_sensores);
+    }
 }

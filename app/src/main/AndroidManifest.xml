@@ -16,6 +16,9 @@
         android:theme="@style/Theme.AMST_API_App"
         tools:targetApi="31">
         <activity
+            android:name=".ingreso_valores_sensores"
+            android:exported="false" />
+        <activity
             android:name=".red_sensores"
             android:exported="false" />
         <activity
